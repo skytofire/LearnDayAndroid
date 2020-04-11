@@ -16,39 +16,35 @@
         android:layout_height="50dp"
         android:orientation="horizontal">
 
-        <Button
+        <com.example.learndayandroid.view.TableView
             android:id="@+id/btn_main_chat"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="微信"
             android:textColor="#000000"
             android:textSize="15sp"/>
 
-        <Button
+        <com.example.learndayandroid.view.TableView
             android:id="@+id/btn_main_contact"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="通信录"
             android:textColor="#000000"
             android:textSize="15sp"/>
 
-        <Button
+        <com.example.learndayandroid.view.TableView
             android:id="@+id/btn_main_find"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="发现"
             android:textColor="#000000"
             android:textSize="15sp"/>
 
-        <Button
+        <com.example.learndayandroid.view.TableView
             android:id="@+id/btn_main_mine"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="我"
             android:textColor="#000000"
             android:textSize="15sp"/>
     </LinearLayout>
