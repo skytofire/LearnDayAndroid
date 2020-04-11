@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!-- clipChildren 为不剪切child子界面-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:clipChildren="false">
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager_scale"
+            android:layout_gravity="center"
+            android:clipChildren="false"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:clipChildren="false">
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager_scroll"
+            android:layout_gravity="center"
+            android:clipChildren="false"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"/>
+    </FrameLayout>
+
+
+</LinearLayout>
