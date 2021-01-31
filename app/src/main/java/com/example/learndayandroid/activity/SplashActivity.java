@@ -35,7 +35,7 @@ public class SplashActivity extends AppCompatActivity {
         //缩放及透明度动画
         mViewScale.setPageTransformer(true, new ScaleTransformer());
         mViewScroll.setPageMargin(20);
-        //旋转动画
+        //旋转测试动画
         mViewScroll.setPageTransformer(true, new ScrollTransformer());
     }
 
